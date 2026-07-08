@@ -1,0 +1,32 @@
+{
+  "name": "http-request-action",
+  "version": "2.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "private": false,
+  "scripts": {
+    "build": "ncc build src/index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/http-request-action.git"
+  },
+  "keywords": [],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/http-request-action/issues"
+  },
+  "homepage": "https://github.com/step-security/http-request-action#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.44.1"
+  },
+  "dependencies": {
+    "@actions/core": "^2.0.3",
+    "axios": "^1.18.1",
+    "form-data": "^4.0.6"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
